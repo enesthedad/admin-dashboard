@@ -13,37 +13,30 @@
 <body>
     <div class="container">
         <div class="sidebar">
-            <div class="logo">
-                
-                <span class="logo-name"><i class="fa-solid fa-table-columns dashboard"></i>Dashboard</span>
-            </div>
-            <div class="sidebar-items">
-                <ul>
-                    <li><a href="#"><i class="fa-sharp fa-solid fa-house-chimney"></i>Home</a></li>
-                    <li><a href="#"><i class="fa-sharp fa-regular fa-user"></i>Profile</a></li>
-                    <li><a href="#"><i class="fa-sharp fa-regular fa-message"></i>Messages</a></li>
-                    <li><a href="#"><i class="fa-sharp fa-solid fa-clock-rotate-left"></i>History</a></li>
-                    <li><a href="#"><i class="fa-sharp fa-solid fa-list-check"></i>Tasks</a></li>
-                    <li><a href="#"><i class="fa-sharp fa-solid fa-people-roof"></i>Communities</a></li>
-                </ul>
-            </div>
-            <div class="sidebar-secondary-items">
-                <ul>
-                    <li><a href="#"><i class="fa-sharp fa-solid fa-gear"></i>Settings</a></li>
-                    <li><a href="#"><i class="fa-sharp fa-solid fa-clipboard-question"></i>Support</a></li>
-                    <li><a href="#"><i class="fa-sharp fa-solid fa-shield"></i>Privacy</a></li>
-                </ul>
-            </div>
+            <div class="logo"><img src="./svgs/view-dashboard.svg" alt="" class="logo-img">Dashboard</div>
+            <div class="h-divider"></div>
+            <a href="#" id="dashboard">Dashboard</a>
+            <a href="#" id="home">Home</a>
+            <a href="#" id="profile">Profile</a>
+            <a href="#" id="messages">Messages</a>
+            <a href="#" id="tasks">Tasks</a>
+            <a href="#" id="communities">Communities</a>
+            <div class="h-divider"></div>
+            <a href="#" id="settings">Settings</a>
+            <a href="#" id="support">Support</a>
+            <a href="#" id="security">Security</a>
         </div>
-        <div class="main-content">
-            <div class="header">
+        <div class="header">
+            <div class="top-header">
                 <div class="search-bar">
-                   
+               
                     <label for=""> <i class="fa-sharp fa-solid fa-magnifying-glass"></i></label><input type="search" name="search" id="search" class="search-bar-input">
                 </div>
                 <div class="profile">
-                    <i class="fa-solid fa-bell"></i><img src="./3d-illustration-person-with-sunglasses_23-2149436188.avif" class="avatar" alt=""><span>Shiny Moralez    </span>
+                    <i class="fa-solid fa-bell"></i><img src="./3d-illustration-person-with-sunglasses_23-2149436188.avif" class="avatar" alt=""><span>Shiny Moralez</span>
                 </div>
+            </div>
+            <div class="bottom-header">
                 <div class="text-header">
                     <div class="avatar-img">
                         <img src="./3d-illustration-person-with-sunglasses_23-2149436188.avif" class="header-avatar"  alt="">
@@ -51,7 +44,7 @@
                     </div>
                     <div class="avatar-text">
                         <p>Hi There!</p>
-                        <h1>Shiny Moralez</h1>
+                        <h1>Shiny Moralez @crazybitchshinny</h1>
                     </div>
                 </div>
                 <div class="header-btns">
@@ -60,22 +53,22 @@
                     <button>Share</button>
                 </div>
             </div>
-            <div class="main">
+        </div>
+        <div class="main-content">
                 <div class="projects">
-                    <h1>Your projects</h1>
-                    <div class="projects-container">
-                        <div class="project">
-                            <div class="project-text">
+                    <div class="section-title">Your projects</div>
+                    <div class="project">
+                        <div class="project-text">
                                 <h2>Super cool project</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nemo expedita cum rem saepe soluta!</p>
-                                </div>
-                            <div class="project-link">
+                        </div>
+                        <div class="project-link">
                                 <a href="#"><i class="fa-sharp fa-regular fa-star"></i></a>    
                                 <a href="#"><i class="fa-sharp fa-regular fa-eye-slash"></i></a>
                                 <a href="#"><i class="fa-sharp fa-solid fa-code-branch"></i></a>
                                 
-                            </div>
                         </div>
+                    </div>
                         
                     <div class="project">
                         <div class="project-text">
@@ -142,38 +135,42 @@
                             
                         </div>
                     </div>
-                    </div>
+                    
 
                 </div>
-                <div class="announcements">
-                    <h1>Announcements</h1>
-                    <div class="announcements-container">
-                        <div class="announcement">
-                            <h1>Site Maintenance</h1>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                       
-                        <div class="announcement">
-                            <h1>Community Share Day</h1>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="announcement">
-                            <h1>Updated Privacy Policy  </h1>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                <div class="news">
+                    <div class="section-title">Announcements</div>
+                    <div class="announcements">
+                        
+                        <div class="announcements-container">
+                            <div class="announcement">
+                                <h1>Site Maintenance</h1>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="h-divider"></div>
+                            <div class="announcement">
+                                <h1>Community Share Day</h1>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="h-divider"></div>
+                            <div class="announcement">
+                                <h1>Updated Privacy Policy  </h1>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="trending">
-                    <h1>Trending</h1>
-                    <div class="trend-container">
+                    <div class="section-title">Trending</div>
+                    <div class="trending">
+                        
+                        <div class="trend-container">
                         <div class="trend"><img src="./user1.jpg" alt="" class="avatar"><span><p>@tegan</p><p>World Peace Builder</p></span></div>
-                    <div class="trend"><img src="./user2.png" alt="" class="avatar"><span><p>@theordinaryguy</p><p>World Peace Builder</p></span></div>
-                    <div class="trend"><img src="./user3.png" alt="" class="avatar"><span><p>@Saw</p><p>World Peace Builder</p></span></div>
-                    <div class="trend"><img src="./user4.png" alt="" class="avatar"><span><p>@imbatmaaaan</p><p>World Peace Builder</p></span></div>   
+                        <div class="trend"><img src="./user2.png" alt="" class="avatar"><span><p>@theordinaryguy</p><p>World Peace Builder</p></span></div>
+                        <div class="trend"><img src="./user3.png" alt="" class="avatar"><span><p>@Saw</p><p>World Peace Builder</p></span></div>
+                        <div class="trend"><img src="./user4.png" alt="" class="avatar"><span><p>@imbatmaaaan</p><p>World Peace Builder</p></span></div>   
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </div>
 </body>
 </html>
